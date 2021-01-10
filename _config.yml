@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+bio: "Ph.d. Student at the University of São Paulo."
+
 defaults:
   -
     scope:
@@ -15,6 +17,20 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+publications:
+    - name: "Place Recognition in Forests With Urquhart Tessellations"
+      authors: "GV Nardari, A Cohen, SW Chen, X Liu, V Arcot, RAF Romero, V Kumar"
+      venue: "IEEE Robotics and Automation Letters (RA-L), 2021."
+      url: "https://ieeexplore.ieee.org/abstract/document/9264665"
+    - name: "SLOAM: Semantic lidar odometry and mapping for forest inventory"
+      authors: "SW Chen*, GV Nardari*, ES Lee, C Qu, X Liu, RAF Romero, V Kumar"
+      venue: "IEEE Robotics and Automation Letters (RA-L), presented at ICRA 2020."
+      url: "https://ieeexplore.ieee.org/abstract/document/8949363"
+    - name: "Crop anomaly identification with color filters and convolutional neural networks"
+      authors: "GV Nardari, RAF Romero, V Guizilini, WE Mareco, DM Milori, PR Vilas-Boas"
+      venue: "IEEE Latin American Robotic Symposium, 2018."
+      url: "https://ieeexplore.ieee.org/abstract/document/8588578"
 
 projects:
   sort_by: pushed
