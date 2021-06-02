@@ -21,7 +21,7 @@ defaults:
 publications:
     - name: "Place Recognition in Forests With Urquhart Tessellations"
       authors: "GV Nardari, A Cohen, SW Chen, X Liu, V Arcot, RAF Romero, V Kumar"
-      venue: "IEEE Robotics and Automation Letters (RA-L), 2021."
+      venue: "IEEE Robotics and Automation Letters (RA-L), presented at ICRA 2021."
       url: "https://ieeexplore.ieee.org/abstract/document/9264665"
     - name: "SLOAM: Semantic lidar odometry and mapping for forest inventory"
       authors: "SW Chen*, GV Nardari*, ES Lee, C Qu, X Liu, RAF Romero, V Kumar"
